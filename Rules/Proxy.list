@@ -1,8 +1,8 @@
 # NAME: 深巷有喵的「Proxy」规则
 # AUTHOR: Rabbit-Spec
 # REPO: https://github.com/Rabbit-Spec/Surge
-# UPDATED: 2026.06.15 05:05:12
-# TOTAL: 6831
+# UPDATED: 2026.06.15 05:20:51
+# TOTAL: 6839
 
 # ======= 手动维护规则 ========
 # SNBFORUMS
@@ -15,6 +15,10 @@ DOMAIN-SUFFIX,caldigit.com
 DOMAIN-SUFFIX,onlyfans.com
 # Dbrand
 DOMAIN-SUFFIX,dbrand.com
+# HomeAssistant
+DOMAIN-SUFFIX,home-assistant.io
+# BetterDisplay
+DOMAIN-SUFFIX,betterdisplay.pro
 
 # ======= GitHub ========
 DOMAIN-SUFFIX,atom.io
@@ -48,6 +52,24 @@ DOMAIN-SUFFIX,rawgithub.com
 DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,thegithubshop.com
 DOMAIN-KEYWORD,github
+
+# ======= Telegram ========
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/21,no-resolve
+IP-CIDR,91.108.16.0/21,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,95.161.64.0/20,no-resolve
+IP-CIDR,139.59.210.98/32,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR,194.221.250.50/32,no-resolve
+IP-CIDR,196.55.216.167/32,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
 
 # ======= Proxy ========
 DOMAIN,api.waqi.info
@@ -2293,7 +2315,6 @@ DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ggssl.com
 DOMAIN-SUFFIX,ghanely.me
-DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,ghidra-sre.org
 DOMAIN-SUFFIX,ghostnoteapp.com
 DOMAIN-SUFFIX,ghostpath.com
@@ -2304,7 +2325,6 @@ DOMAIN-SUFFIX,giga-web.jp
 DOMAIN-SUFFIX,gigacircle.com
 DOMAIN-SUFFIX,giganews.com
 DOMAIN-SUFFIX,girlbanker.com
-DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gitbooks.io
@@ -4635,7 +4655,6 @@ DOMAIN-SUFFIX,raremovie.cc
 DOMAIN-SUFFIX,raremovie.net
 DOMAIN-SUFFIX,rateyourmusic.com
 DOMAIN-SUFFIX,rationalwiki.org
-DOMAIN-SUFFIX,rawgit.com
 DOMAIN-SUFFIX,rawstory.com
 DOMAIN-SUFFIX,razyboard.com
 DOMAIN-SUFFIX,rcinet.ca
@@ -6767,7 +6786,6 @@ IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,14.102.250.18/31,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,157.240.0.0/17,no-resolve
 IP-CIDR,158.85.224.160/27,no-resolve
 IP-CIDR,158.85.46.128/27,no-resolve
@@ -6789,7 +6807,6 @@ IP-CIDR,180.163.151.162/32,no-resolve
 IP-CIDR,180.163.151.34/32,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
-IP-CIDR,185.76.151.0/24,no-resolve
 IP-CIDR,203.104.103.0/24,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
 IP-CIDR,203.174.66.64/26,no-resolve
@@ -6831,12 +6848,7 @@ IP-CIDR,74.119.76.0/22,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,74.86.0.0/16,no-resolve
 IP-CIDR,75.126.0.0/16,no-resolve
-IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2a0a:f280::/32,no-resolve
 USER-AGENT,Duolingo*
 USER-AGENT,OneDrive*
 USER-AGENT,PayPal*
