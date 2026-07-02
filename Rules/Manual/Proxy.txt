@@ -12,3 +12,5 @@ DOMAIN-SUFFIX,dbrand.com
 DOMAIN-SUFFIX,home-assistant.io
 # BetterDisplay
 DOMAIN-SUFFIX,betterdisplay.pro
+# TikTok
+DOMAIN-SUFFIX,tiktokcdn.com
