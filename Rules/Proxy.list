@@ -1,8 +1,8 @@
 # NAME: 深巷有喵的「Proxy」规则
 # AUTHOR: Rabbit-Spec
 # REPO: https://github.com/Rabbit-Spec/Surge
-# UPDATED: 2026.08.07 08:50:57
-# TOTAL: 6940
+# UPDATED: 2026.08.08 04:34:48
+# TOTAL: 6939
 
 # ======= 手动维护规则 ========
 # SNBFORUMS
@@ -6034,7 +6034,6 @@ DOMAIN-SUFFIX,unification.org.tw
 DOMAIN-SUFFIX,unirule.cloud
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,unitedsocialpress.com
-DOMAIN-SUFFIX,unity3d.com
 DOMAIN-SUFFIX,unix100.com
 DOMAIN-SUFFIX,unknownspace.org
 DOMAIN-SUFFIX,unlock-music.dev
