@@ -266,5 +266,5 @@ jobs:
             COMMIT_TIME=$(TZ="Asia/Shanghai" date +"%Y.%m.%d %H:%M:%S")
             git commit -m "$COMMIT_TIME Update"
             # 推送到 sync-preview 预览分支；由人工确认 diff 后再合入 Master
-   git push origin HEAD:sync-preview --force
+            git push origin HEAD:sync-preview --force
           fi
